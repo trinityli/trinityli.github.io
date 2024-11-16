@@ -15,11 +15,28 @@ const Header = () => {
             </div>
         </div> */}
         <div className='container mx-auto'>
+            {/* <div className='flex items-start justify-between px-4 py-2'> */}
+                {/* <Link href="/">
+                    <img src="/assets/bunny_light.png"
+                    alt="icon"
+                    className="h-10 w-auto cursor-pointer align-middle" />
+                </Link> */}
+            {/* </div>  */}
             {/* <div className='flex justify-between'> */}
                 {/* <Link href='/'>
                     <h1 className='text-2xl font-bold'>Trinity Li</h1>
                 </Link> */}
                 <ul className='flex justify-center items-center font-bold space-x-10 tracking-widest'>
+                    <Link href="/">
+                        <img src="/assets/bunny_light.png"
+                        alt="light icon"
+                        className="h-10 w-auto cursor-pointer align-middle items-start transition-opacity duration-200 ease-in-out hover:opacity-40 opacity-100 dark:hidden" />
+                        <img src="/assets/bunny_dark.png"
+                        alt="dark icon"
+                        className="h-10 w-auto cursor-pointer align-middle items-start hidden dark:block transition-opacity duration-200 ease-in-out hover:opacity-60 opacity-100" />
+
+                    </Link>
+
                     <li><a href='/assets/resume.pdf' target="_blank" rel="noopener noreferrer"
                     className="hover:text-primary hover:shadow-primary transition duration-200 ease-in-out">Resume</a></li>
                     <li><Link href='/projects'
