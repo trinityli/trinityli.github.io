@@ -15,9 +15,9 @@ const Home = () => {
             : "opacity-0 translate-y-10"
         }`}
       >
-      <h1 className='text-7xl font-bold mb-20'> Hi! I'm Trinity. </h1>
-      <p className="mb-3">I'm a recent graduate of Mechanical Engineering from the University of Waterloo. </p>
-      <p className="mb-3">Currently seeking full time opportunities :&#41; </p>
+      <h1 className='inter font-semibold text-7xl mb-10 tracking-wide'> Hi! I'm Trinity. </h1>
+      <p className="karla font-regular text-2xl mb-3">I'm a recent graduate of Mechanical Engineering from the University of Waterloo. </p>
+      <p className="karla font-regular text-2xl mb-3">Currently seeking full time opportunities :&#41; </p>
     </div>
   )
 }

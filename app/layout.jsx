@@ -1,10 +1,23 @@
-import { Inter } from 'next/font/google'
+import { Inter, Karla } from 'next/font/google'
 import "./globals.css";
 
 import Header from './components/Header';
 import Footer from './components/Footer';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter_init = Inter({ 
+  subsets: ['latin'],
+  weight: ['300', '400', '600'],
+  variable: '--font-inter'
+})
+
+const karla_init = Karla({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  variable: '--font-karla'
+})
+// const karla = Karla({
+
+// })
 
 export const metadata = {
   title: "Trinity Li",
@@ -13,15 +26,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" >
       <body
-        className={inter.className}>
+        className={`${inter_init.variable} ${karla_init.variable}`}>
           <Header />
           
           <main className="w-full mx-auto pt-20 min-h-screen bg-gradient-pastel dark:bg-gradient-indigo"> 
             {children}
           </main>
-          {/* <Footer /> */}
+          <Footer />
       </body>
     </html>
   );
