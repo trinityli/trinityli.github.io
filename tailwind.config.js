@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      // spacing: {
+      //   'screen-offset': 'calc(20px)',
+      // },
       backgroundImage: {
         'gradient-pastel': 'radial-gradient(at right bottom, rgb(255, 228, 230), rgb(255, 255, 255), rgb(186, 230, 253))',
         'gradient-indigo': 'radial-gradient(at right bottom, rgb(192, 132, 252), rgb(49, 46, 129), rgb(0, 0, 0))',

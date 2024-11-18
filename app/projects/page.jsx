@@ -14,7 +14,15 @@ const Projects = () => {
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-10"
         }`}> 
-        </div>
+      <div className ="karla font-medium text-5xl">
+        Projects
+      </div>
+
+      {/* <div className ="mt-100 font-medium text-5xl">
+        Self Localizing Autonomous Robot
+      </div> */}
+
+      </div>
   )
 }
 
