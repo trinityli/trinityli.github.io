@@ -52,6 +52,12 @@ const Projects = () => {
           controller that would self-correct based on positional data obtained from sensors and calculated error </li>
           <li> Created a particle filter using LiDAR, odometry, and SLAM mapping by creating a probabilistic motion model 
           for each particle and resampling and weighting the particles using the SLAM occupancy map </li>
+          <p> Github: 
+            <a className="transition-opacity duration-200 ease-in-out opacity-100 hover:opacity-60" href="https://github.com/noobmaster29/me597_lab2"> (1) </a>
+            <a  className="transition-opacity duration-200 ease-in-out opacity-100 hover:opacity-60" href="https://github.com/noobmaster29/me597_lab3"> (2) </a>
+          </p>
+          {/* <a className="transition-opacity duration-200 ease-in-out opacity-100 hover:opacity-60" href="https://github.com/noobmaster29/me597_lab2"> (1) </a>
+          <a  className="transition-opacity duration-200 ease-in-out opacity-100 hover:opacity-60" href="https://github.com/noobmaster29/me597_lab3"> (2) </a> */}
         </ul>
         {/* <div className='karla font-regular text-base mt-3 text-wrap'>
           Implemented a PID controller class for a Turtlebot using ROS2 and Python to create a closed-loop feedback
