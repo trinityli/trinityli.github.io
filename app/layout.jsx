@@ -28,10 +28,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" >
       <body
-        className={`${inter_init.variable} ${karla_init.variable}`}>
+        className={`${inter_init.variable} ${karla_init.variable} flex flex-col min-h-screen bg-gradient-pastel dark:bg-gradient-indigo`}>
           <Header />
           
-          <main className="w-full mx-auto pt-20 min-h-screen bg-gradient-pastel dark:bg-gradient-indigo"> 
+          {/* <main className="w-full mx-auto pt-20 min-h-screen bg-gradient-pastel dark:bg-gradient-indigo">  */}
+          <main className="w-full mx-auto pt-20"> 
             {children}
           </main>
           <Footer />
